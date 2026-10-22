@@ -1,0 +1,9 @@
+formatVersion: 1
+additionalFields: true
+fields:
+  suite: {type: string, required: true, enum: [auth, inventory, reporting, billing, settings]}
+  priority: {type: string, required: false, enum: [P0, P1, P2, P3]}
+  tags: {type: array, required: false, items: {type: string}}
+  automated: {type: boolean, required: true}
+  estimatedMinutes: {type: integer, required: false}
+  riskScore: {type: number, required: false}
