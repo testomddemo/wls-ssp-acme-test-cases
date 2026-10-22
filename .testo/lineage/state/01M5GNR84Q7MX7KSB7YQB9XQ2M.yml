@@ -3,7 +3,9 @@
   "kept" : [ ],
   "declined" : [ ],
   "decisionId" : "01M5GNR84ZA5HEJNQZW98X28CM",
-  "seen" : { },
+  "seen" : {
+    "github-1429134234" : "01M5GNR84ZA5HEJNQZW98X28CM"
+  },
   "event" : "01M5GNR84Q7MX7KSB7YQB9XQ2M",
   "via" : {
     "kind" : "created"
